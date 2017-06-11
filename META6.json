@@ -1,0 +1,33 @@
+{
+  "authors" : [
+    "zengargoyle"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "WWW",
+    "Readline",
+    "Shell::Command",
+    "JSON::Fast",
+    "p6doc",
+    "App::Mi6",
+    "Terminal::ANSIColor",
+    "panda",
+    "LibraryCheck",
+    "File::Temp",
+    "Zef::CPANReporter",
+    "Terminal::Table",
+    "LibraryMake"
+  ],
+  "description" : "a collection of handy modules i always install",
+  "license" : "Artistic-2.0",
+  "name" : "Task::Handy",
+  "perl" : "6.c",
+  "provides" : {
+    "Task::Handy" : "lib/Task/Handy.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
